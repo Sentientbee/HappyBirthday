@@ -95,6 +95,7 @@ fun GreetingText(message: String, from: String, modifier: Modifier = Modifier) {
             textAlign = TextAlign.Left,
             modifier = Modifier
                 .background(color = Color.Yellow)
+                .align(alignment = Alignment.CenterHorizontally)
 
         )
     }
